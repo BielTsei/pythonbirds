@@ -51,7 +51,7 @@ class PorcoFake(AtorFake):
 class PassaroFake(AtorFake):
     def __init__(self, x=0, y=0):
         super().__init__(x, y)
-        self._lancado = False
+        self._lancado = True
         self.colidir_com_chao_executado = False
 
     def foi_lancado(self):

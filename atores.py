@@ -122,14 +122,14 @@ class Passaro(Ator):
 
     def lancar(self, angulo, tempo_de_lancamento):
         """
-        Lógica que lança o pássaro. Deve armazenar o ângulo e o tempo de lançamento para posteriores cálculo.
+        Lógica que lança o pássaro. Deve armazenar o ângulo e o tempo de lançamento para posteriores cálculos.
         O ângulo é passado em graus e deve ser transformado em radianos
 
         :param angulo:
         :param tempo_de_lancamento:
         :return:
         """
-        pass
+        return self.lancar(angulo, tempo_de_lancamento)
 
 
 class PassaroAmarelo(Passaro):
