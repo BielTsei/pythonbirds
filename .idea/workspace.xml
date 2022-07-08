@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d9ff17a-3836-409a-9d59-8677b1fb71ef" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testes/teste_fase.py" beforeDir="false" afterPath="$PROJECT_DIR$/testes/teste_fase.py" afterDir="false" />
-    </list>
+    <list default="true" id="5d9ff17a-3836-409a-9d59-8677b1fb71ef" name="Changes" comment="Implementado o teste de -&gt; Intervado de colisão padrão" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +58,20 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for teste_fase.FaseTestes.teste_lancar_passaro_sem_erro_quando_nao_existe_passaro" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonbirds" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;teste_fase.FaseTestes.teste_lancar_passaro_sem_erro_quando_nao_existe_passaro&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in teste_carro.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonbirds" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,6 +117,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in teste_fase.py (1)" />
+        <item itemvalue="Python tests.Python tests for teste_fase.FaseTestes.teste_lancar_passaro_sem_erro_quando_nao_existe_passaro" />
         <item itemvalue="Python tests.Doctests in carro" />
         <item itemvalue="Python tests.Python tests in teste_carro.py" />
         <item itemvalue="Python tests.Python tests in teste_fase.py" />
@@ -121,6 +133,14 @@
       <option name="presentableId" value="Default" />
       <updated>1657282643951</updated>
     </task>
+    <task id="LOCAL-00001" summary="Implementado o teste de -&gt; Intervado de colisão padrão">
+      <created>1657288553540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657288553540</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,7 +148,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/simples" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -138,5 +170,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../../Documentos/pythonbirds" />
     </ignored-roots>
+    <MESSAGE value="Implementado o teste de -&gt; Intervado de colisão padrão" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementado o teste de -&gt; Intervado de colisão padrão" />
   </component>
 </project>
