@@ -26,7 +26,7 @@ class AtorFake:
         self.y = y
         self.x = x
         self.status = ATIVO
-        self.colidir_executado = False
+        self.colidir_executado = False # Colidir começa como False
         self.calcular_posicao_executado = False
         self.intervalo_colisao = None
 
@@ -34,7 +34,8 @@ class AtorFake:
         self.calcular_posicao_executado = True
 
     def colidir(self, outro_ator, intervalo):
-        self.colidir_executado = outro_ator.colidir_executado = True
+        self.colidir_executado = outro_ator.colidir_executado = True # Mas quando o método colidir é chamado ele passa
+        # a ser True
         self.intervalo_colisao = outro_ator.intervalo_colisao = intervalo
 
     def caracter(self):
