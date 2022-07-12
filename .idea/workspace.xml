@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d9ff17a-3836-409a-9d59-8677b1fb71ef" name="Changes" comment="Implementado o teste de -&gt; Lançar passaro sem erro quando não existe passaro">
+    <list default="true" id="5d9ff17a-3836-409a-9d59-8677b1fb71ef" name="Changes" comment="Implementado a Posição do Ator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atores.py" beforeDir="false" afterPath="$PROJECT_DIR$/atores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testes/testes_atores.py" beforeDir="false" afterPath="$PROJECT_DIR$/testes/testes_atores.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,29 +43,8 @@
       <recent name="D:\Documentos" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for testes_atores.AtorTestes.teste_ator_posicao">
-    <configuration name="atores" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonbirds" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/atores.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for testes_atores.AtorTestes.teste_ator_posicao" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for testes_atores.AtorTestes.teste_colisao_somente_um_ator_destruido">
+    <configuration name="Python tests for testes_atores.AtorTestes" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonbirds" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,11 +54,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testes_atores.AtorTestes.teste_ator_posicao&quot;" />
+      <option name="_new_target" value="&quot;testes_atores.AtorTestes&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for testes_atores.AtorTestes.teste_valores_padrao" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for testes_atores.AtorTestes.teste_colisao_entre_atores_ativos" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonbirds" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,11 +68,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testes_atores.AtorTestes.teste_valores_padrao&quot;" />
+      <option name="_new_target" value="&quot;testes_atores.AtorTestes.teste_colisao_entre_atores_ativos&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for testes_atores.AtorTestes.teste_valores_passados_por_parametro" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for testes_atores.AtorTestes.teste_colisao_somente_um_ator_destruido" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonbirds" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,11 +82,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testes_atores.AtorTestes.teste_valores_passados_por_parametro&quot;" />
+      <option name="_new_target" value="&quot;testes_atores.AtorTestes.teste_colisao_somente_um_ator_destruido&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in teste_fase.py (1)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for testes_atores.AtorTestes.teste_nao_colisao_entre_atores_distantes" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonbirds" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,17 +96,31 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testes/teste_fase.py&quot;" />
+      <option name="_new_target" value="&quot;testes_atores.AtorTestes.teste_nao_colisao_entre_atores_distantes&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in testes_atores.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonbirds" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testes/testes_atores.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for testes_atores.AtorTestes.teste_ator_posicao" />
-        <item itemvalue="Python tests.Python tests for testes_atores.AtorTestes.teste_valores_padrao" />
-        <item itemvalue="Python tests.Python tests for testes_atores.AtorTestes.teste_valores_passados_por_parametro" />
-        <item itemvalue="Python.atores" />
-        <item itemvalue="Python tests.Python tests in teste_fase.py (1)" />
+        <item itemvalue="Python tests.Python tests for testes_atores.AtorTestes.teste_colisao_somente_um_ator_destruido" />
+        <item itemvalue="Python tests.Python tests for testes_atores.AtorTestes.teste_nao_colisao_entre_atores_distantes" />
+        <item itemvalue="Python tests.Python tests for testes_atores.AtorTestes" />
+        <item itemvalue="Python tests.Python tests for testes_atores.AtorTestes.teste_colisao_entre_atores_ativos" />
+        <item itemvalue="Python tests.Python tests in testes_atores.py" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657289139468</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implementado a Posição do Ator">
+      <created>1657292063899</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657292063899</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,7 +186,8 @@
     </ignored-roots>
     <MESSAGE value="Implementado o teste de -&gt; Intervado de colisão padrão" />
     <MESSAGE value="Implementado o teste de -&gt; Lançar passaro sem erro quando não existe passaro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementado o teste de -&gt; Lançar passaro sem erro quando não existe passaro" />
+    <MESSAGE value="Implementado a Posição do Ator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementado a Posição do Ator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
