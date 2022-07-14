@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d9ff17a-3836-409a-9d59-8677b1fb71ef" name="Changes" comment="Implementado a Teste de Colisão">
+    <list default="true" id="5d9ff17a-3836-409a-9d59-8677b1fb71ef" name="Changes" comment="Implementado o Teste Obstaculo e Passaro Vermelho">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atores.py" beforeDir="false" afterPath="$PROJECT_DIR$/atores.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,19 +41,26 @@
       <recent name="D:\Documentos" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for testes_atores.PassaroVermelhoTests.teste_velocidade_escalar">
-    <configuration name="Python tests for testes_atores.ObstaculoTestes.teste_status" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for testes_atores.PassaroVermelhoTests.teste_foi_lancado">
+    <configuration name="placa_grafica_tkinter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonbirds" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testes_atores.ObstaculoTestes.teste_status&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/placa_grafica_tkinter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for testes_atores.PassaroVermelhoTests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -68,6 +74,20 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;testes_atores.PassaroVermelhoTests&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for testes_atores.PassaroVermelhoTests.teste_foi_lancado" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonbirds" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testes_atores.PassaroVermelhoTests.teste_foi_lancado&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -99,27 +119,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for testes_atores.PorcoTestes.teste_status" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="pythonbirds" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testes" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testes_atores.PorcoTestes.teste_status&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for testes_atores.PassaroVermelhoTests.teste_foi_lancado" />
+        <item itemvalue="Python.placa_grafica_tkinter" />
         <item itemvalue="Python tests.Python tests for testes_atores.PassaroVermelhoTests.teste_velocidade_escalar" />
         <item itemvalue="Python tests.Python tests for testes_atores.PassaroVermelhoTests.teste_status" />
         <item itemvalue="Python tests.Python tests for testes_atores.PassaroVermelhoTests" />
-        <item itemvalue="Python tests.Python tests for testes_atores.ObstaculoTestes.teste_status" />
-        <item itemvalue="Python tests.Python tests for testes_atores.PorcoTestes.teste_status" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657649181981</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implementado o Teste Obstaculo e Passaro Vermelho">
+      <created>1657820641711</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657820641711</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,7 +207,8 @@
     <MESSAGE value="Implementado o teste de -&gt; Lançar passaro sem erro quando não existe passaro" />
     <MESSAGE value="Implementado a Posição do Ator" />
     <MESSAGE value="Implementado a Teste de Colisão" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementado a Teste de Colisão" />
+    <MESSAGE value="Implementado o Teste Obstaculo e Passaro Vermelho" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementado o Teste Obstaculo e Passaro Vermelho" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
