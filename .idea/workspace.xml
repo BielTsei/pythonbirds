@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d9ff17a-3836-409a-9d59-8677b1fb71ef" name="Changes" comment="Implementado o Teste Obstaculo e Passaro Vermelho">
+    <list default="true" id="5d9ff17a-3836-409a-9d59-8677b1fb71ef" name="Changes" comment="Implementado lógica do teste lançar e foi_lançado">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonbirds.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonbirds.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atores.py" beforeDir="false" afterPath="$PROJECT_DIR$/atores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testes/testes_atores.py" beforeDir="false" afterPath="$PROJECT_DIR$/testes/testes_atores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testes/testes_placa_grafica.py" beforeDir="false" afterPath="$PROJECT_DIR$/testes/testes_placa_grafica.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,20 +33,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Documentos&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Documentos",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Documentos" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for testes_atores.PassaroVermelhoTests.teste_foi_lancado">
+  <component name="RunManager" selected="Python.placa_grafica_tkinter">
     <configuration name="placa_grafica_tkinter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonbirds" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,7 +68,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for testes_atores.PassaroVermelhoTests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in teste_fase.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonbirds" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,11 +78,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testes_atores.PassaroVermelhoTests&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testes/teste_fase.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for testes_atores.PassaroVermelhoTests.teste_foi_lancado" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in testes_atores.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonbirds" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,11 +92,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testes_atores.PassaroVermelhoTests.teste_foi_lancado&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testes/testes_atores.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for testes_atores.PassaroVermelhoTests.teste_status" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in testes_integracao.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonbirds" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,11 +106,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testes_atores.PassaroVermelhoTests.teste_status&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testes/testes_integracao.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for testes_atores.PassaroVermelhoTests.teste_velocidade_escalar" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in testes_placa_grafica.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonbirds" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,17 +120,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testes_atores.PassaroVermelhoTests.teste_velocidade_escalar&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testes/testes_placa_grafica.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for testes_atores.PassaroVermelhoTests.teste_foi_lancado" />
         <item itemvalue="Python.placa_grafica_tkinter" />
-        <item itemvalue="Python tests.Python tests for testes_atores.PassaroVermelhoTests.teste_velocidade_escalar" />
-        <item itemvalue="Python tests.Python tests for testes_atores.PassaroVermelhoTests.teste_status" />
-        <item itemvalue="Python tests.Python tests for testes_atores.PassaroVermelhoTests" />
+        <item itemvalue="Python tests.Python tests in testes_placa_grafica.py" />
+        <item itemvalue="Python tests.Python tests in testes_integracao.py" />
+        <item itemvalue="Python tests.Python tests in testes_atores.py" />
+        <item itemvalue="Python tests.Python tests in teste_fase.py" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657820641711</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implementado lógica do teste lançar e foi_lançado">
+      <created>1657822542924</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657822542924</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,7 +220,8 @@
     <MESSAGE value="Implementado a Posição do Ator" />
     <MESSAGE value="Implementado a Teste de Colisão" />
     <MESSAGE value="Implementado o Teste Obstaculo e Passaro Vermelho" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementado o Teste Obstaculo e Passaro Vermelho" />
+    <MESSAGE value="Implementado lógica do teste lançar e foi_lançado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementado lógica do teste lançar e foi_lançado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

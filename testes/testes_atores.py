@@ -265,10 +265,7 @@ class PassaroAmareloTests(PassaroBaseTests):
         passaro_amarelo = PassaroAmarelo(1, 1)
         passaro_amarelo.lancar(90, 2)  # passaro lancado a 90 graus no tempo 2 segundos
 
-
-
         # subindo
-
         self.assert_posicao_vertical(1, 2.0, passaro_amarelo)
         self.assert_posicao_vertical(1, 2.01, passaro_amarelo)
         self.assert_posicao_vertical(2, 2.02, passaro_amarelo)
@@ -277,7 +274,6 @@ class PassaroAmareloTests(PassaroBaseTests):
         self.assert_posicao_vertical(2, 2.05, passaro_amarelo)
 
         # descendo
-
         self.assert_posicao_vertical(46, 5.26, passaro_amarelo)
         self.assert_posicao_vertical(46, 5.27, passaro_amarelo)
         self.assert_posicao_vertical(46, 5.279999999999999, passaro_amarelo)
